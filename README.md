@@ -1,1 +1,5 @@
 # Supervised-Machine-Learning-Challenge
+
+In this challenge, we used Supervised Machine Learning to predict risk levels of each loan. We used two models, Logistical Regression and Random Forest, to classify risk status. The data were undersampled as only 2.2% of loans on the original data set were classified as high risk, so this was done to yield more accurate models. After using each model with non-scaled data, we then scaled the data to see which model would perform better. 
+
+I predicted that the Random Forest model would perform better than the Logistic Regression model, because the data was not linear, as would be required in Logistic Regression. Because the data was not linear to begin with, I also predicted that scaling the data would improve both models. However, the Logistic Regression outperformed the Random Forest model because of the Random Forest model overfitting the data and yielding a 1.0 score. Scaling the data made the Logistic Regression model score better, perhaps because it helped to make a non-normal data set more normal.
